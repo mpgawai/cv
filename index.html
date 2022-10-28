@@ -1,88 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
+
   <title>Manish's Personal Site</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"/>
 
 </head>
-
 <body>
-  <table cellspacing=20>
-    <tr>
-      <td>
-        <img src="manish.png" alt="manish profile picture" >
-      </td>
-      <td>
-        <h1>Manish Gawai</h1>
-        <p> <em>System Engineer at <strong> Infosys Ltd. </strong> </em> </p>
-        <p>I am a Python Web Developer. I ❤️ coffee and brew my own beers.</p>
-      </td>
-    </tr>
-  </table>
 
-  <hr>
-  <h3>Skills and Learnings</h3>
-  <ul>
-    <li><a href="https://www.talend.com/resources/data-warehouse-testing/#:~:text=What%20is%20data%20warehouse%20testing,with%20the%20organization's%20data%20framework.">Data warehouse testing</a> </li>
-    <li><a href="https://realpython.com/tutorials/web-dev/">Python Web Development</a></li>
-    <li><a href="https://www.unf.edu/~cwinton/html/cop3601/supplements/SoCUnixShellProg.html#:~:text=When%20you%20login%20to%20a,spawned%20to%20run%20the%20script.">UNIX Shell Scripting</a></li>
-    <li><a href="https://www.oracle.com/in/big-data/what-is-big-data/">Big Data: Hadoop, Hive, etc.</a></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing=10>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Since 2022</td>
-        <td>System Engineer at Infosys Limited</td>
-      </tr>
-      <tr>
-        <td>2017-2021</td>
-        <td>Under Graduate at PRMIT, Badnera</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Techniacal Skills</h3>
+  <div class="top-container">
 
-  <table cellspacing=10>
-    <tr>
-      <td>
-        <tr>
-          <td>Infomatica ETL Tool</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>UNIX OS</td>
-          <td>⭐⭐⭐⭐  </td>
-        </tr>
-        <tr>
-          <td>MYSQL</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-      </td>
-  </table>
-<hr />
+    <img class="top-cloud" src="images/cloud.png" alt="cloud image"/>
+    <h1>I am Manish.</h1>
 
-<table cellspacing=10>
-  <tr>
-    <td>
-      <a href="hobbies.html">My Hobbies</a>
-    </td>
-    <td>
-      <a href="contact.html">Contact Me</a>
-    </td>
-  </tr>
-</table>
+    <p class="subtitle">
+      a <span class="pro">pro</span>grammer.
+    </p>
+
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud image"/>
+    <img class="mountain-image" src="images/mountain.png" alt="cloud image"/>
+  </div>
+
+  <div class="mid-container">
+    <div class="profile">
+      <img class="profile-picture" src="images/manish.png" alt="manish's profile picture" />
+      <h2>Hello,</h2>
+      <p class="intro">
+        I am a Python Web Developer.<br />
+        I ❤️ Cofee and Brew my own beers.
+      </p>
+    </div>
+    <hr />
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/programming.png" alt="computer image"/>
+        <h3>Design & Development</h3>
+        <p>
+          I have Started coding after my graduation in mechanical engineering because
+          I always wanted to develop my own website. Over Time, I have gained a wealth of experience
+          in designing and developing mobile and web applictions.
+        </p>
+      </div>
+
+      <div class="skill-row">
+        <img class="popcorn-img" src="images/pop-corn.png" alt="popcorn image"/>
+        <h3>Popcorn Challenge.</h3>
+        <p>
+          But my actual skill is eating popcorn. I am undisputed king of popcorn challenge.
+          Snowflake popcorn and Mushroom popcorn are my favorite snack.
+        </p>
+
+      </div>
+    </div>
+    <hr />
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love popcorn as much as I do.</h3>
+      <p class="contact-message">
+        Love popcorn as much as I do? Let's talk about how awesome they are!
+        We can code while we eat popcorn!
+      </p>
+      <a href="contact.html" class="btn">Contact me</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="bottom-layer">
+      <a href="https://www.linkedin.com/in/manish-gawai">Linkdin</a>
+      <a href="https://www.youtube.com/c/LearnersDictionaryNet">Youtube</a>
+      <a herf="https://mpgawai.github.io/cv">Website</a>
+      <p class="copyright"> © 2022 Manish Gawai @Learner's Dictionary </p>
+
+    </div>
+  </div>
+
 
 </body>
-
 </html>
